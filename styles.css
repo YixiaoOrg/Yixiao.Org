@@ -1,0 +1,26 @@
+#blink {
+    color: #f00;
+    font-weight: bold;
+}
+footer p {
+    text-align: center;
+    font-size: 12px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #d9d9d9;
+    margin-bottom: 10px;
+}
+
+body {
+    width: 70%;
+    margin: 0 auto;
+    font-family: Tahoma, Verdana, Arial, sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        width: 97%;
+    }
+}
